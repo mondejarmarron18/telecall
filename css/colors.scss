@@ -1,0 +1,23 @@
+$colors: (
+    primary: #EC0C3E,
+    primary-light: lighten(#EC0C3E, 15%),
+    primary-dark: darken(#EC0C3E, 15%)
+);
+
+@function color($color){
+    @return map-get($colors, $color);
+}
+
+// @mixin desktop {
+//     @media only screen and (min-width: 900px) {
+//         @content;
+//     }
+// }
+
+// body {
+//     background: white;
+
+//     @include desktop {
+//         background:black;
+//     }
+// }
