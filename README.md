@@ -1,7 +1,8 @@
 # Telecall
 
-<p>A static landing page for costumer support company.</p>
+<p>A BPO company landing page.</p>
 
-## Note
-
-<p>All the information and images are all not mine </p>
+## Technology Used
+- Javascript
+- HTML5
+- CSS3
